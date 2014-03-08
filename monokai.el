@@ -48,22 +48,25 @@ Based on the TextMate theme Monokai"
      (font-lock-constant-face ((t (:foreground "#4e9a06")))) ; dark chameleon
      (font-lock-type-face ((t (:foreground "#66D9EF")))) ; light plum
      (font-lock-warning-face ((t (:bold t :foreground "#cc0000")))) ; scarlet red
+     (hl-line ((t (:background "#393b2f"))))
 
      ;; Search
      (isearch ((t (:foreground "#080808" :background "#edd400"))))
      (isearch-lazy-highlight-face ((t (:foreground "#080808" :background "#75715E"))))
 
      ;; Emacs Interface
-     (fringe ((t (:background "#0f0f0f"))))
+     (fringe ((t (:background "#272822"))))
+     (linum ((t (:background "#272822"))))
      (border ((t (:background "#0f0f0f"))))
-     (mode-line ((t (:background "#1f1f1f" :foreground "#eeeeec"))))
-     (mode-line-buffer-id ((t (:background "#1f1f1f" :foreground "#eeeeec"))))
-     (mode-line-inactive ((t (:background "#1f1f1f" :foreground "#888a85"))))
+     (mode-line ((t (:background "#393b2f" :foreground "#eeeeec"))))
+     (mode-line-buffer-id ((t (:background "#393b2f" :foreground "#eeeeec"))))
+     (mode-line-inactive ((t (:background "#393b2f" :foreground "#888a85"))))
      (minibuffer-prompt ((t (:foreground "#729fcf")))) ; light sky blue
      (region ((t (:background "#49483E"))))
 
      ;; Parenthesis matching
-     (show-paren-match-face ((t (:foreground "#2e3436" :background "#3E3D32"))))
+     ;;(show-paren-match-face ((t (:foreground "#2e3436" :background "#3E3D32"))))
+     (show-paren-match-face ((t (:foreground "#E6DB74" :background "#3E3D32"))))
      (show-paren-mismatch-face ((t (:foreground "#2e3436" :background "#ef2929"))))
 
      ;; Calendar
