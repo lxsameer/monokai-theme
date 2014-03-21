@@ -56,8 +56,8 @@ Based on the TextMate theme Monokai"
 
      ;; Emacs Interface
      (fringe ((t (:background "#272822"))))
-     (linum ((t (:background "#272822"))))
-     (border ((t (:background "#0f0f0f"))))
+     (linum ((t (:background "#303030"))))
+     (border ((t (:background "#272822"))))
      (mode-line ((t (:background "#393b2f" :foreground "#eeeeec"))))
      (mode-line-buffer-id ((t (:background "#393b2f" :foreground "#eeeeec"))))
      (mode-line-inactive ((t (:background "#393b2f" :foreground "#888a85"))))
@@ -85,5 +85,7 @@ Based on the TextMate theme Monokai"
      (font-latex-warning-face ((t (:foreground "#cc0000")))) ; dark scarlet red
      (font-latex-slide-title-face ((t (:foreground "#c4a000")))) ; dark butter
      )))
+
+     (set-face-attribute 'fringe nil :background "#272822")
 
 (provide 'color-theme-monokai)
