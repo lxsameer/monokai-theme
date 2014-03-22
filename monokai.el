@@ -69,6 +69,8 @@ Based on the TextMate theme Monokai"
      (show-paren-match-face ((t (:foreground "#E6DB74" :background "#3E3D32"))))
      (show-paren-mismatch-face ((t (:foreground "#2e3436" :background "#ef2929"))))
 
+     (indent-guide-face ((t (:foreground "#bbb"))))
+
      ;; Calendar
      (holiday-face ((t (:foreground "#cc0000")))) ; dark scarlet red
 
@@ -86,6 +88,6 @@ Based on the TextMate theme Monokai"
      (font-latex-slide-title-face ((t (:foreground "#c4a000")))) ; dark butter
      )))
 
-     (set-face-attribute 'fringe nil :background "#272822")
+(set-face-attribute 'fringe nil :background "#272822")
 
 (provide 'color-theme-monokai)
