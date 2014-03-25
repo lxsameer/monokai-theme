@@ -64,6 +64,7 @@ Based on the TextMate theme Monokai"
      (minibuffer-prompt ((t (:foreground "#729fcf")))) ; light sky blue
      (region ((t (:background "#49483E"))))
 
+     ;(flycheck-error ((t (:underline (:color  "#0000ff" :style :wave)))))
      ;; Parenthesis matching
      ;;(show-paren-match-face ((t (:foreground "#2e3436" :background "#3E3D32"))))
      (show-paren-match-face ((t (:foreground "#E6DB74" :background "#3E3D32"))))
@@ -87,6 +88,7 @@ Based on the TextMate theme Monokai"
      (font-latex-warning-face ((t (:foreground "#cc0000")))) ; dark scarlet red
      (font-latex-slide-title-face ((t (:foreground "#c4a000")))) ; dark butter
      )))
+
 
 (set-face-attribute 'fringe nil :background "#272822")
 
