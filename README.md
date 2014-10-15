@@ -1,4 +1,4 @@
 monokai-theme
 =============
 
-Monokai them for emacs
+Monokai theme for emacs
